@@ -23,7 +23,9 @@ pip install -r requirements.txt
 
 ### 1. Face Detection & Preprocessing
 
-**Step 1: Download Datasets** Please download the following datasets and place them in the `./datasets/` directory:
+**Step 1: Download Datasets** 
+
+Please download the following datasets and place them in the `./datasets/` directory:
 
 * [FaceForensics++ (FF++)](https://github.com/ondyari/FaceForensics)
 * [Celeb-DF (v2)](https://github.com/yuezunli/celeb-deepfakeforensics)
@@ -31,14 +33,18 @@ pip install -r requirements.txt
 * [DFDCP](https://ai.facebook.com/datasets/dfdc/)
 * [DFDC](https://ai.facebook.com/datasets/dfdc/)
 
-**Step 2: Extract Facial Images** We use **RetinaFace** to extract facial images from videos. Please refer to the [RetinaFace GitHub repository](https://github.com/biubug6/Pytorch_Retinaface) for installation. Run the provided script to process the videos:
+**Step 2: Extract Facial Images** 
+
+We use **RetinaFace** to extract facial images from videos. Please refer to the [RetinaFace GitHub repository](https://github.com/biubug6/Pytorch_Retinaface) for installation. Run the provided script to process the videos:
 
 ```bash
 python ./preprocess/detect_faces.py
 
 ```
 
-**Step 3: Prepare Data Text Files** Create data annotation files in `./datasets/FaceForensics++/data_txt` following this format:
+**Step 3: Prepare Data Text Files** 
+
+Create data annotation files in `./datasets/FaceForensics++/data_txt` following this format:
 
 `[path] [start_frame] [end_frame] [label]`
 
