@@ -26,7 +26,7 @@ pip install -r requirements.txt
 **Step 1: Download Datasets** Please download the following datasets and place them in the `./datasets/` directory:
 
 * [FaceForensics++ (FF++)](https://github.com/ondyari/FaceForensics)
-* [Celeb-DF (v2)](https://www.google.com/search?q=https://github.com/yuezunli/celeb-df)
+* [Celeb-DF (v2)](https://github.com/yuezunli/celeb-deepfakeforensics)
 * [DFD](https://ai.googleblog.com/2019/09/contributing-data-to-deepfake-detection.html)
 * [DFDCP](https://ai.facebook.com/datasets/dfdc/)
 * [DFDC](https://ai.facebook.com/datasets/dfdc/)
